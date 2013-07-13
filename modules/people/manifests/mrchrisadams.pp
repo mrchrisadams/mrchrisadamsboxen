@@ -8,7 +8,7 @@ class people::mrchrisadams {
 	include autoconf
 	include libtool
 	include pkgconfig
-	include prce
+	include pcre
 
   class { 'php::global':
 		version => '5.4.10'
