@@ -43,4 +43,4 @@ github "php",		"1.1.0"
 
 
 # editor
-github "sublime_text_2", 
+github "sublime_text_2",  "ST2.0.2"
