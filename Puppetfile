@@ -39,8 +39,10 @@ github "wget",		"1.0.0"
 
 # sigh… php
 github "php",		"1.1.0"
-
-
+github "autoconf",	"1.1.0"
+github "libtool",	"1.1.0"
+github "pkgconfig", "1.0.0"
+github "prce",      "1.0.0"
 
 # editor
 github "sublime_text_2",  "1.1.2"
