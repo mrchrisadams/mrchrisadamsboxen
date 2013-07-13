@@ -3,6 +3,9 @@
 class people::mrchrisadams {
   include wget 
   include java
-  notify { 'hello world': }
+
+  class { 'php::global':
+	version => '5.4.10'
+  }
 }
   

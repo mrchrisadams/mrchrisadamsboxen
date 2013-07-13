@@ -36,3 +36,4 @@ github "sudo",       "1.0.0"
 
 github "java",		"1.1.0"
 github "wget",		"1.0.0"
+github "php",		"1.1.0"
