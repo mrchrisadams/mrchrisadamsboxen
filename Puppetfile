@@ -36,4 +36,11 @@ github "sudo",       "1.0.0"
 
 github "java",		"1.1.0"
 github "wget",		"1.0.0"
+
+# sigh… php
 github "php",		"1.1.0"
+
+
+
+# editor
+github "sublime_text_2", 
