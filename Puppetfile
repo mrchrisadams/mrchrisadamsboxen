@@ -37,6 +37,8 @@ github "sudo",       "1.0.0"
 github "java",		"1.1.0"
 github "wget",		"1.0.0"
 
+
+
 # sigh… php
 github "autoconf",  "1.0.0"
 github "libtool",   "1.0.0"
@@ -52,5 +54,6 @@ github "xquartz",		"1.1.0"
 github "python",		"1.1.1"
 
 
-# editor
+# editor and dev tools
 github "sublime_text_2",  "1.1.2"
+github "sequel_pro",         "1.0.0"

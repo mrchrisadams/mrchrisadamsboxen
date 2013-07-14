@@ -2,7 +2,7 @@
 
 class people::mrchrisadams {
 
-  include wget 
+  include wget
   include java
 
 	include autoconf
@@ -17,6 +17,7 @@ class people::mrchrisadams {
   include python
 
   include sublime_text_2
+  include sequel_pro
 
   # add symlink for nodejs, so things that
   # assume node is in a common directroy still work
