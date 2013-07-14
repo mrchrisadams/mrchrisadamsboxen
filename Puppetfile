@@ -34,8 +34,8 @@ github "sudo",       "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "java",		"1.1.0"
-github "wget",		"1.0.0"
+github "java",    "1.1.0"
+github "wget",    "1.0.0"
 
 
 
@@ -46,14 +46,26 @@ github "pkgconfig", "1.0.0"
 github "pcre",      "1.0.0"
 
 # these are dependencies for php
-github "php",		"1.1.0"
+github "php",   "1.1.0"
 
 
 # these are dependencies for python
-github "xquartz",		"1.1.0"
-github "python",		"1.1.1"
+github "xquartz",   "1.1.0"
+github "python",    "1.1.1"
 
+# datastores and databases
+github "redis",                    "0.3.0"
+github "mysql",                  "1.1.0"
+
+# dependency on PG
+github "sysctl",                   "1.0.0"
+github "postgresql",          "0.2.1"
+
+
+# paas
+github "heroku",              "2.0.0"
 
 # editor and dev tools
 github "sublime_text_2",  "1.1.2"
 github "sequel_pro",         "1.0.0"
+

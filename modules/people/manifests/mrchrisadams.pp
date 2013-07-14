@@ -19,6 +19,15 @@ class people::mrchrisadams {
   include sublime_text_2
   include sequel_pro
 
+  # databases
+  include redis
+  include mysql
+
+  include postgresql
+
+  # paas
+  include heroku
+
   # add symlink for nodejs, so things that
   # assume node is in a common directroy still work
   file { '/usr/local/bin/node':
