@@ -14,6 +14,8 @@ class people::mrchrisadams {
 		version => '5.4.10'
   }
 
+  include python
+
   include sublime_text_2
 
   # add symlink for nodejs, so things that

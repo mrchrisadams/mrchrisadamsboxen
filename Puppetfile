@@ -46,5 +46,11 @@ github "pcre",      "1.0.0"
 # these are dependencies for php
 github "php",		"1.1.0"
 
+
+# these are dependencies for python
+github "xquartz",		"1.1.0"
+github "python",		"1.1.1"
+
+
 # editor
 github "sublime_text_2",  "1.1.2"
