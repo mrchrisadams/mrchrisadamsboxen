@@ -54,11 +54,11 @@ github "xquartz",   "1.1.0"
 github "python",    "1.1.1"
 
 # datastores and databases
-github "redis",                    "0.3.0"
-github "mysql",                  "1.1.0"
+github "redis",               "0.3.0"
+github "mysql",               "1.1.0"
 
 # dependency on PG
-github "sysctl",                   "1.0.0"
+github "sysctl",              "1.0.0"
 github "postgresql",          "0.2.1"
 
 
@@ -66,8 +66,9 @@ github "postgresql",          "0.2.1"
 github "heroku",              "2.0.0"
 
 # editor and dev tools
-github "sublime_text_2",  "1.1.2"
-github "sequel_pro",         "1.0.0"
+github "sublime_text_2",      "1.1.2"
+github "sequel_pro",          "1.0.0"
+
 # video
 github "handbrake",           "1.0.1"
 
