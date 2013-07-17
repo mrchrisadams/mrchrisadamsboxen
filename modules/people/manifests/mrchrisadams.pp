@@ -28,6 +28,11 @@ class people::mrchrisadams {
   # paas
   include heroku
 
+
+  # not work
+  include rdio
+  # include niceplayer
+
   # add symlink for nodejs, so things that
   # assume node is in a common directroy still work
   file { '/usr/local/bin/node':

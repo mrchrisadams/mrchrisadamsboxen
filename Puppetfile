@@ -69,3 +69,5 @@ github "heroku",              "2.0.0"
 github "sublime_text_2",  "1.1.2"
 github "sequel_pro",         "1.0.0"
 
+# music
+github "rdio",                "1.0.0"
