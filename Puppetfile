@@ -68,6 +68,8 @@ github "heroku",              "2.0.0"
 # editor and dev tools
 github "sublime_text_2",  "1.1.2"
 github "sequel_pro",         "1.0.0"
+# video
+github "handbrake",           "1.0.1"
 
 # music
 github "rdio",                "1.0.0"

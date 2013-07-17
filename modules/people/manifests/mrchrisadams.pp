@@ -29,6 +29,7 @@ class people::mrchrisadams {
   include heroku
 
 
+  include handbrake
   # not work
   include rdio
   # include niceplayer
