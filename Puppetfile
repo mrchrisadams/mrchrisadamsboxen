@@ -64,6 +64,7 @@ github "postgresql",          "0.2.1"
 
 # paas
 github "heroku",              "2.0.0"
+github "foreman",             "1.0.0"
 
 # editor and dev tools
 github "sublime_text_2",      "1.1.2"

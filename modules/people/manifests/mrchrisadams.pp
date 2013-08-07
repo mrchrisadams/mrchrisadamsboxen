@@ -27,9 +27,10 @@ class people::mrchrisadams {
 
   # paas
   include heroku
-
+  include foreman
 
   include handbrake
+
   # not work
   include rdio
   # include niceplayer
