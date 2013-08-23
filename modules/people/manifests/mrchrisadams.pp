@@ -14,7 +14,11 @@ class people::mrchrisadams {
 		version => '5.4.10'
   }
 
+
   include python
+
+
+  include clojure
 
   include sublime_text_2
   include sequel_pro
@@ -42,5 +46,8 @@ class people::mrchrisadams {
      target => '/opt/boxen/nodenv/shims/node',
   }
 
+  # add phantomjs for security workshop
+  # include phantomjs
+  # phantomjs::version { '1.9.0': }
 }
 

@@ -37,6 +37,8 @@ github "sudo",       "1.0.0"
 github "java",    "1.1.0"
 github "wget",    "1.0.0"
 
+# clojure
+github 'clojure',   "1.2.0"
 
 
 # sigh… php
@@ -75,3 +77,7 @@ github "handbrake",           "1.0.1"
 
 # music
 github "rdio",                "1.0.0"
+
+# phantomjs
+github "phantomjs",           "2.0.2"
+
