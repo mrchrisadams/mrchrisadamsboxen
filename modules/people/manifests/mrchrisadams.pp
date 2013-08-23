@@ -47,7 +47,7 @@ class people::mrchrisadams {
   }
 
   # add phantomjs for security workshop
-  # include phantomjs
-  # phantomjs::version { '1.9.0': }
+  include phantomjs
+  phantomjs::version { '1.9.0': }
 }
 
