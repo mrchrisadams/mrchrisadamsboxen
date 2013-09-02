@@ -18,19 +18,19 @@ github "boxen", "2.1.0"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "1.0.0"
-github "gcc",        "1.0.0"
-github "git",        "1.2.2"
-github "homebrew",   "1.1.2"
-github "hub",        "1.0.0"
-github "inifile",    "0.9.0", :repo => "cprice404/puppetlabs-inifile"
-github "nginx",      "1.4.0"
-github "nodejs",     "2.3.0"
-github "repository", "2.2.0"
-github "ruby",       "4.1.0"
-github "stdlib",     "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
-github "sudo",       "1.0.0"
-
+github "dnsmasq",       "1.0.0"
+github "gcc",           "1.0.0"
+github "git",           "1.2.2"
+github "homebrew",      "1.1.2"
+github "hub",           "1.0.0"
+github "inifile",       "0.9.0", :repo => "cprice404/puppetlabs-inifile"
+github "nginx",         "1.4.0"
+github "nodejs",        "2.3.0"
+github "repository",    "2.2.0"
+github "ruby",          "4.1.0"
+github "stdlib",        "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
+github "sudo",          "1.0.0"
+github "transmission",  "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
@@ -75,9 +75,15 @@ github "sequel_pro",          "1.0.0"
 # video
 github "handbrake",           "1.0.1"
 
+#graphics
+github "inkscape",            "1.0.3"
+
 # music
 github "rdio",                "1.0.0"
 
 # phantomjs
 github "phantomjs",           "2.0.2"
+
+# password management
+github "keepassx",            "1.0.0"
 

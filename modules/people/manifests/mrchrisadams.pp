@@ -37,6 +37,7 @@ class people::mrchrisadams {
 
   # not work
   include rdio
+  include transmission
   # include niceplayer
 
   # add symlink for nodejs, so things that
@@ -49,5 +50,13 @@ class people::mrchrisadams {
   # add phantomjs for security workshop
   include phantomjs
   phantomjs::version { '1.9.0': }
+
+  # graphics
+  include inkscape
+
+  # add password handling
+  include keepassx
+
+
 }
 
