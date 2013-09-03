@@ -74,6 +74,11 @@ GITHUBTARBALL
     libtool (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mou
+  specs:
+    mou (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-mysql
   specs:
     mysql (1.1.0)
@@ -112,6 +117,11 @@ GITHUBTARBALL
   remote: boxen/puppet-postgresql
   specs:
     postgresql (0.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-python
@@ -200,6 +210,7 @@ DEPENDENCIES
   java (= 1.1.0)
   keepassx (= 1.0.0)
   libtool (= 1.0.0)
+  mou (= 1.1)
   mysql (= 1.1.0)
   nginx (= 1.4.0)
   nodejs (= 2.3.0)
@@ -208,6 +219,7 @@ DEPENDENCIES
   php (= 1.1.0)
   pkgconfig (= 1.0.0)
   postgresql (= 0.2.1)
+  property_list_key (= 0.1.0)
   python (= 1.1.1)
   rdio (= 1.0.0)
   redis (= 0.3.0)

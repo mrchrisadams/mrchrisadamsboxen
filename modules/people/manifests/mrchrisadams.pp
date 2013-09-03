@@ -57,6 +57,9 @@ class people::mrchrisadams {
   # add password handling
   include keepassx
 
+  # for editing markdown
+  include mou
+  include mou::themes
 
 }
 

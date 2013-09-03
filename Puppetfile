@@ -87,3 +87,6 @@ github "phantomjs",           "2.0.2"
 # password management
 github "keepassx",            "1.0.0"
 
+# for editing markdown
+github "mou",                 "1.1"
+github "property_list_key",   "0.1.0"
