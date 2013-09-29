@@ -33,12 +33,13 @@ class people::mrchrisadams {
   include heroku
   include foreman
 
+  # video
+  include vlc
   include handbrake
 
   # not work
   include rdio
   include transmission
-  # include niceplayer
 
   # add symlink for nodejs, so things that
   # assume node is in a common directroy still work
@@ -60,6 +61,10 @@ class people::mrchrisadams {
   # for editing markdown
   include mou
   include mou::themes
+
+
+  # for working spreadsheets and stuff
+  include libreoffice
 
 }
 

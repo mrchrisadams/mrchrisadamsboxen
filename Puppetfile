@@ -30,7 +30,7 @@ github "repository",    "2.2.0"
 github "ruby",          "4.1.0"
 github "stdlib",        "4.0.2", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",          "1.0.0"
-github "transmission",  "1.0.0"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
@@ -72,8 +72,12 @@ github "foreman",             "1.0.0"
 github "sublime_text_2",      "1.1.2"
 github "sequel_pro",          "1.0.0"
 
+# bitTorrent
+github "transmission",  "1.0.0"
+
 # video
 github "handbrake",           "1.0.1"
+github "vlc",                 "1.0.4"
 
 #graphics
 github "inkscape",            "1.0.3"
@@ -90,3 +94,8 @@ github "keepassx",            "1.0.0"
 # for editing markdown
 github "mou",                 "1.1"
 github "property_list_key",   "0.1.0"
+
+
+# libreoffice
+github "libreoffice",         "4.1.1"
+
