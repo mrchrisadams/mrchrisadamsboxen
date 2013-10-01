@@ -66,5 +66,15 @@ class people::mrchrisadams {
   # for working spreadsheets and stuff
   include libreoffice
 
+  #omnidisksweeper
+  include omnidisksweeper
+
+  # for working with .env files on projects
+  package {
+    ["autoenv"]:
+    ensure => present
+  }
+
+
 }
 

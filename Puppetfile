@@ -98,10 +98,10 @@ github "keepassx",            "1.0.0"
 github "mou",                 "1.1"
 github "property_list_key",   "0.1.0"
 
-
 # libreoffice
 github "libreoffice",         "4.1.1"
 
-mod "omnidisksweeper",        :path => "~/Code/misc/boxen/puppet-omnidisksweeper"
+github "omnidisksweeper",     "0.0.2", :repo => "mrchrisadams/puppet-omnidisksweeper"
+
 
 
