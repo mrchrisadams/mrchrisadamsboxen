@@ -37,6 +37,9 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+# Explicitly included to add more os_x resource types
+github "osx",     "1.6.0"
+
 github "java",    "1.1.0"
 github "wget",    "1.0.0"
 
@@ -58,6 +61,9 @@ github "php",   "1.1.0"
 github "xquartz",   "1.1.0"
 github "python",    "1.1.1"
 
+# go, yo
+github "go",        "1.0.1"
+
 # datastores and databases
 github "redis",               "0.3.0"
 github "mysql",               "1.1.0"
@@ -65,6 +71,10 @@ github "mysql",               "1.1.0"
 # dependency on PG
 github "sysctl",              "1.0.0"
 github "postgresql",          "0.2.1"
+
+github "mongodb",             "0.2.1"
+
+
 
 
 # paas
@@ -103,5 +113,5 @@ github "libreoffice",         "4.1.1"
 
 github "omnidisksweeper",     "0.0.2", :repo => "mrchrisadams/puppet-omnidisksweeper"
 
-
-
+# trying it out. Not as compatable as zsh, but otherwise seems lovely.
+github "fish",                "1.0.0"

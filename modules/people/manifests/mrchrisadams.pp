@@ -28,6 +28,7 @@ class people::mrchrisadams {
   include mysql
 
   include postgresql
+  include mongodb
 
   # paas
   include heroku
@@ -47,6 +48,12 @@ class people::mrchrisadams {
      ensure => 'link',
      target => '/opt/boxen/nodenv/shims/node',
   }
+
+  nodejs::module { 'yo':
+    node_version => 'v0.10.13'
+  }
+
+
 
   # add phantomjs for security workshop
   include phantomjs
@@ -74,6 +81,15 @@ class people::mrchrisadams {
     ["autoenv"]:
     ensure => present
   }
+
+  # Install fish, but don't set it as your default shell
+  class { 'fish':
+    chsh => true,
+  }
+
+
+  include go
+
 
 
 }
