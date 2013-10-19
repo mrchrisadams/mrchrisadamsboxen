@@ -83,9 +83,9 @@ class people::mrchrisadams {
   }
 
   # Install fish, but don't set it as your default shell
-  class { 'fish':
-    chsh => true,
-  }
+  # class { 'fish':
+  #   chsh => true,
+  # }
 
   # this install go, but not a version of go, it seems
   include go
