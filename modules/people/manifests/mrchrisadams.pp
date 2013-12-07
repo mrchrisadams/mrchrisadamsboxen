@@ -87,7 +87,7 @@ class people::mrchrisadams {
   #   chsh => true,
   # }
 
-  # this install go, but not a version of go, it seems
+  # this installs go, but not a version of go, it seems
   include go
 
   include go::1_1
