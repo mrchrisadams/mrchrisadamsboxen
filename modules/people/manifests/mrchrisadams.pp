@@ -67,7 +67,7 @@ class people::mrchrisadams {
 
   # for editing markdown
   include mou
-  include mou::themes
+  # include mou::themes
 
 
   # for working spreadsheets and stuff
