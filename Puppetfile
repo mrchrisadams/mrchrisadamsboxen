@@ -97,6 +97,7 @@ github "inkscape",            "1.0.3"
 
 # music
 github "rdio",                "1.0.0"
+github "spotify",             "1.0.1"
 
 # phantomjs
 github "phantomjs",           "2.0.2"
