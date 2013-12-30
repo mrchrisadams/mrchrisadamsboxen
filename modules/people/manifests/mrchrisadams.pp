@@ -55,6 +55,7 @@ class people::mrchrisadams {
 
 
 
+
   # add phantomjs for security workshop
   include phantomjs
   phantomjs::version { '1.9.0': }
@@ -89,8 +90,9 @@ class people::mrchrisadams {
 
   # this installs go, but not a version of go, it seems
   include go
-
   include go::1_1
+  # needed for go
+  include mercurial
 
 
 }
