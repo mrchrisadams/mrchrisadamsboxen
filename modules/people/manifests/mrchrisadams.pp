@@ -20,7 +20,14 @@ class people::mrchrisadams {
 
   include clojure
 
-  include sublime_text_2
+  # is it worth maintaining SL inside boxen?
+  # I'm not convinced
+  # # sublime text updates itself
+  include sublime_text
+
+  # sublime_text::package { 'Emmet':
+  #   source => 'sergeche/emmet-sublime'
+  # }
   include sequel_pro
 
   # databases
