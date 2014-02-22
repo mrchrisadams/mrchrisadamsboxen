@@ -17,6 +17,10 @@ class people::mrchrisadams {
 
   include python
 
+  package {
+    ["saltstack"]:
+    ensure => present
+  }
 
   include clojure
 
