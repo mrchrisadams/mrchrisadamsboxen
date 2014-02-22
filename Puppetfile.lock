@@ -189,9 +189,9 @@ GITHUBTARBALL
     sequel_pro (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text_2
+  remote: boxen/puppet-spotify
   specs:
-    sublime_text_2 (1.1.2)
+    spotify (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -280,8 +280,8 @@ DEPENDENCIES
   repository (= 2.2.0)
   ruby (= 6.3.4)
   sequel_pro (= 1.0.0)
+  spotify (= 1.0.1)
   stdlib (= 4.1.0)
-  sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   sysctl (= 1.0.0)
   transmission (= 1.0.0)
