@@ -24,14 +24,6 @@ class people::mrchrisadams {
 
   include clojure
 
-  # is it worth maintaining SL inside boxen?
-  # I'm not convinced
-  # # sublime text updates itself
-  include sublime_text
-
-  # sublime_text::package { 'Emmet':
-  #   source => 'sergeche/emmet-sublime'
-  # }
   include sequel_pro
 
   # databases
@@ -64,9 +56,6 @@ class people::mrchrisadams {
     node_version => 'v0.10.13'
   }
 
-
-
-
   # add phantomjs for security workshop
   include phantomjs
   phantomjs::version { '1.9.0': }
@@ -81,7 +70,6 @@ class people::mrchrisadams {
   include mou
   # include mou::themes
 
-
   # for working spreadsheets and stuff
   include libreoffice
 
@@ -95,9 +83,9 @@ class people::mrchrisadams {
   }
 
   # Install fish, but don't set it as your default shell
-  # class { 'fish':
-  #   chsh => true,
-  # }
+  class { 'fish':
+    chsh => true,
+  }
 
   # this installs go, but not a version of go, it seems
   include go

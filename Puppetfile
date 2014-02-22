@@ -81,8 +81,6 @@ github "mongodb",             "0.2.1"
 github "heroku",              "2.0.0"
 github "foreman",             "1.0.0"
 
-# editor and dev tools
-# github "sublime_text",        "1.2.2", :repo => "mrchrisadams/puppet-sublime_text"
 github "sequel_pro",          "1.0.0"
 
 # bitTorrent
