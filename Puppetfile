@@ -113,6 +113,8 @@ github "libreoffice",         "4.1.1"
 github "omnidisksweeper",     "0.0.2", :repo => "mrchrisadams/puppet-omnidisksweeper"
 github "mercurial",           "0.0.1", :repo => "bluesalt/puppet-mercurial"
 
+github "gpgtools",            "1.2.0", :repo => "envato/puppet-gpgtools"
+
 
 # trying it out. Not as compatable as zsh, but otherwise seems lovely.
 github "fish",                "1.0.0"

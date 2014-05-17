@@ -14,17 +14,41 @@ class people::mrchrisadams {
 		version => '5.4.10'
   }
 
+  # for crypto
+  include gpgtools
+
 
   include python
+
+  # for Geo and mapping work
+  package { "gdal":
+    ensure => installed,
+  }
 
   package {
     ["saltstack"]:
     ensure => present
   }
 
+  # needed for git svn to work
+  package {
+    ["subversion"]:
+    ensure => present,
+    install_options => [
+    '--perl'
+    ]
+  }
+
   include clojure
 
   include sequel_pro
+
+  # message queues
+  package {
+    ["zeromq"]:
+    ensure => present
+  }
+
 
   # databases
   include redis
@@ -46,15 +70,15 @@ class people::mrchrisadams {
   include transmission
 
   # add symlink for nodejs, so things that
-  # assume node is in a common directroy still work
+  # assume node is in a common directory still work
   file { '/usr/local/bin/node':
      ensure => 'link',
      target => '/opt/boxen/nodenv/shims/node',
   }
 
-  nodejs::module { 'yo':
-    node_version => 'v0.10.13'
-  }
+  # nodejs::module { 'yo':
+  #   node_version => 'v0.10.13'
+  # }
 
   # add phantomjs for security workshop
   include phantomjs
@@ -93,6 +117,11 @@ class people::mrchrisadams {
   # needed for go
   include mercurial
 
+  # Adding spiff to build cloudfoundry locally
+  #package {
+#    ["spiff"]:
+#    ensure => present
+#  }
+
 
 }
-
