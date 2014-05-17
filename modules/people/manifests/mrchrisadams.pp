@@ -123,5 +123,8 @@ class people::mrchrisadams {
 #    ensure => present
 #  }
 
+  # for local development on ruby app
+  include pow
+
 
 }

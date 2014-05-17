@@ -75,7 +75,7 @@ github "postgresql",          "0.2.1"
 github "mongodb",             "0.2.1"
 
 
-
+github "pow",                 "2.0.3"
 
 # paas
 github "heroku",              "2.0.0"
