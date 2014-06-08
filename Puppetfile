@@ -81,11 +81,7 @@ github "php",   "1.1.0"
 
 
 # these are dependencies for python
-github "xquartz",   "1.1.0"
 github "python",    "1.1.1"
-
-# go, yo
-github "go",        "1.0.1"
 
 # datastores and databases
 github "redis",               "0.3.0"
@@ -102,7 +98,6 @@ github "pow",                 "2.0.3"
 
 # paas
 github "heroku",              "2.0.0"
-github "foreman",             "1.0.0"
 
 github "sequel_pro",          "1.0.0"
 
@@ -119,9 +114,6 @@ github "inkscape",            "1.0.3"
 # music
 github "rdio",                "1.0.0"
 github "spotify",             "1.0.1"
-
-# phantomjs
-github "phantomjs",           "2.0.2"
 
 # password management
 github "keepassx",            "1.0.0"

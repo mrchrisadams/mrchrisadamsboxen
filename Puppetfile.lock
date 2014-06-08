@@ -1,17 +1,27 @@
 GITHUBTARBALL
+  remote: bluesalt/puppet-mercurial
+  specs:
+    mercurial (0.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-autoconf
+  specs:
+    autoconf (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.6.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-foreman
-  specs:
-    foreman (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-fish
@@ -21,7 +31,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
-    foreman (1.0.0)
+    foreman (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -37,11 +47,6 @@ GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.1.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-go
-  specs:
-    go (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-handbrake
@@ -119,14 +124,59 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.6.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pcre
+  specs:
+    pcre (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-php
+  specs:
+    php (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (0.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pow
+  specs:
+    pow (2.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-property_list_key
+  specs:
+    property_list_key (0.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-rdio
+  specs:
+    rdio (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (0.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -204,23 +254,56 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
+  autoconf (= 1.0.0)
   boxen (= 3.6.1)
+  clojure (= 1.2.0)
   dnsmasq (= 1.0.1)
+  fish (= 1.0.0)
   foreman (= 1.2.0)
   gcc (= 2.0.101)
   git (= 2.4.0)
   go (= 1.1.0)
+  gpgtools (= 1.2.0)
+  handbrake (= 1.0.1)
+  heroku (= 2.0.0)
   homebrew (= 1.9.3)
   hub (= 1.3.0)
   inifile (= 1.0.3)
+  inkscape (= 1.0.3)
+  java (= 1.1.0)
+  keepassx (= 1.0.0)
+  libreoffice (= 4.1.1)
+  libtool (= 1.0.0)
+  mercurial (= 0.0.1)
   module-data (= 0.0.3)
+  mongodb (= 0.2.1)
+  mou (= 1.1)
+  mysql (= 1.1.0)
   nginx (= 1.4.3)
   nodejs (= 3.7.0)
+  omnidisksweeper (= 0.0.2)
   openssl (= 1.0.0)
+  osx (= 1.6.0)
+  pcre (= 1.0.0)
   phantomjs (= 2.3.0)
+  php (= 1.1.0)
   pkgconfig (= 1.0.0)
+  pkgconfig (= 1.0.0)
+  postgresql (= 0.2.1)
+  pow (= 2.0.3)
+  property_list_key (= 0.1.0)
+  python (= 1.1.1)
+  rdio (= 1.0.0)
+  redis (= 0.3.0)
   repository (= 2.3.0)
   ruby (= 8.0.4)
+  sequel_pro (= 1.0.0)
+  spotify (= 1.0.1)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
+  transmission (= 1.0.0)
+  vlc (= 1.0.4)
+  wget (= 1.0.0)
   xquartz (= 1.1.1)
+
