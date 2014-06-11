@@ -133,3 +133,5 @@ github "gpgtools",            "1.2.0", :repo => "envato/puppet-gpgtools"
 
 # trying it out. Not as compatable as zsh, but otherwise seems lovely.
 github "fish",                "1.0.0"
+
+github "github_for_mac",      "1.0.2"
