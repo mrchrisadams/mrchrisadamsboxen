@@ -83,9 +83,10 @@ class people::mrchrisadams {
      target => '/opt/boxen/nodenv/shims/node',
   }
 
-  # nodejs::module { 'yo':
-  #   node_version => 'v0.10.13'
-  # }
+
+  nodejs::module { 'yo':
+    node_version => 'v0.10.13'
+  }
 
   # add phantomjs for security workshop
   include phantomjs
