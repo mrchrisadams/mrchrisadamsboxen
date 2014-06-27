@@ -57,6 +57,13 @@ class people::mrchrisadams {
   include postgresql
   include mongodb
 
+  # iaas
+  package {
+    ["awscli"]:
+    ensure => present
+  }
+
+
   # paas
   include heroku
   include foreman
