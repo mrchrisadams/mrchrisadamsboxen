@@ -157,6 +157,4 @@ class people::mrchrisadams {
 
   # for local development on ruby app
   include pow
-  include github_for_mac
-
 }
