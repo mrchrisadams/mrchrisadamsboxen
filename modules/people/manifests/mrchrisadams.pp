@@ -30,6 +30,11 @@ class people::mrchrisadams {
     ensure => present
   }
 
+  package {
+    ["ansible"]:
+    ensure => present
+  }
+
   # needed for git svn to work
   package {
     ["subversion"]:
