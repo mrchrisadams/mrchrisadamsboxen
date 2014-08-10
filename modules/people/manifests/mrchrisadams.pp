@@ -71,6 +71,11 @@ class people::mrchrisadams {
     ["awscli"]:
     ensure => present
   }
+  package {
+    ["s3cmd"]:
+    ensure => present
+  }
+
 
 
   # paas
