@@ -20,6 +20,10 @@ class people::mrchrisadams {
 
   include python
 
+  package { "graphviz":
+    ensure => present,
+  }
+
   # for Geo and mapping work
   package { "gdal":
     ensure => installed,
