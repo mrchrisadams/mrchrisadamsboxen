@@ -39,6 +39,10 @@ class people::mrchrisadams {
     ]
   }
 
+  package {
+    ["tmux"]:
+    ensure => present
+  }
   include clojure
 
   include sequel_pro
