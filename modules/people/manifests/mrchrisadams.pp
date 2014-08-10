@@ -48,6 +48,12 @@ class people::mrchrisadams {
     ["tmux"]:
     ensure => present
   }
+
+  package {
+    ["gpg"]:
+    ensure => present
+  }
+
   include clojure
 
   include sequel_pro
