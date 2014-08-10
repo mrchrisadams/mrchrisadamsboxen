@@ -89,7 +89,7 @@ github "mysql",               "1.1.0"
 
 # dependency on PG
 github "sysctl",              "1.0.0"
-github "postgresql",          "0.2.1"
+# github "postgresql",          "2.0.1"
 
 github "mongodb",             "0.2.1"
 
